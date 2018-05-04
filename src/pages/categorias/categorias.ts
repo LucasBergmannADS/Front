@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+<<<<<<< HEAD
 import { CategoriaService } from '../../services/domain/categoria.service';
+=======
+>>>>>>> 10c4cd3704f5f31b801f29d1c2aadf9be5d11740
 
 /**
  * Generated class for the CategoriasPage page.
@@ -16,6 +19,7 @@ import { CategoriaService } from '../../services/domain/categoria.service';
 })
 export class CategoriasPage {
 
+<<<<<<< HEAD
   constructor(
   public navCtrl: NavController, 
   public navParams: NavParams,
@@ -39,3 +43,13 @@ export class CategoriasPage {
   }
 
 
+=======
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad CategoriasPage');
+  }
+
+}
+>>>>>>> 10c4cd3704f5f31b801f29d1c2aadf9be5d11740
